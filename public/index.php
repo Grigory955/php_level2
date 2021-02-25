@@ -21,7 +21,7 @@ $user = new User(new Db());
 echo $user->getOne(1) . "<br>";
 echo $user->getAll();
 
-var_dump($product);
+
 
 echo "<br>";
 $weightProduct1 = new WeightProduct('Печенье', 100, 300);
